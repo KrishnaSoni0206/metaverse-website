@@ -1,0 +1,29 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html , body{
+    width: 100%;
+    height: 100%;
+    background-color: blueviolet;
+}
+.highway{
+    height:20%;
+    width:500%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-image: url(road.jpg);
+    background-repeat: repeat-x;
+   animation: krishna 20s linear infinite;
+
+}
+@keyframes krishna{
+    100%{
+        transform: translate(-3400px);
+    }
+
+}
